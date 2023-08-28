@@ -1,0 +1,38 @@
+.texto-rojo{
+    color: red;
+}
+
+.noticias h2{
+    color: blue;
+    font-size: 35px;
+}
+p{
+    color: green;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: monospace;
+    text-align: center;
+}
+
+#gitante{
+    font-size:40px;
+}
+
+h1{
+    color:gold
+}
+
+.destacado {
+    color: gold;
+}
+
+.en-mayuscula {
+    text-transform: uppercase;
+}
+
+#whatsapp {
+    background-color: green;
+    color: white;
+}

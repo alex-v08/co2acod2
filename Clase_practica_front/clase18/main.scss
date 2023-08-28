@@ -1,0 +1,19 @@
+/* Variables */
+
+/* Nesging - anidamiento */
+$color-primary: rgba(255, 255, 0);
+$color-secondary: rgb(172, 179, 172);
+$color-tertiary: rgb(26, 18, 18);
+
+
+/* Mixins */
+
+header {
+  background-color: $color-primary;
+  color: $color-secondary;
+}
+
+.logo {
+  color: $color-tertiary;
+}
+

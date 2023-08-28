@@ -1,0 +1,176 @@
+
+
+/*
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+    
+  }
+    /*Estilizar el html
+html {
+    
+  /*Estilizar el Html fondo superior*/
+    background-image: url('../img/bg-tablet-pattern.svg');
+    background-position-x: 100%;
+    background-position-y: -20%;
+    background-repeat: no-repeat;
+   
+  
+  }
+
+/*Estilizar contenido de la página*/
+.headerPositionStyle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75.5px 10%  20px 10% ;
+}
+
+
+/*Estiliza NAV */
+
+.navHeader {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 5px 15px 20px;
+  }
+
+.ilustration {
+  width:30vw;
+}
+
+
+.mainCustom{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  padding:  0 10% 0 10%;
+
+}
+
+.buttonMain {
+  padding-top: 35px;
+
+}
+
+.mainmidSup{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+/*Estiliza lista de Nav header*/
+
+
+.background-bottom {
+  background-image: url('../img/bg-tablet-pattern.svg');
+  background-position-x : 50%;
+  background-position-y: -10%;
+  background-repeat: no-repeat;
+}
+
+
+.mainTop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom:30px;
+  }
+.h1h2Format{
+  font-size: 4vw;
+  
+  font-weight: 700;
+  color: #242E52;
+ 
+}
+.mainmidbuton{
+  display: flex;
+  flex-direction: row
+}
+
+
+.section-aside{
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+
+}
+.user-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ height:  30vh;
+
+
+
+  padding-top:10%;
+}
+
+.mainmidInf{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #F3603B;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3603B;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 5px;
+  
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 60px;
+
+}
+p{
+  font-weight: 500;
+font-size: 16.5584px;
+font-size: 1.3vw;
+color: #B3B2B7;
+
+line-height: 26.01px
+}
+
+.pMain{
+font-weight: 500;
+font-size: 16.5584px;
+font-size: 1.3vw;
+color: #B3B2B7;
+width: 70%;
+line-height: 26.01px;
+padding-top: 28px;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  padding: 10%;
+  background-color: #1E1E26;
+  color:#FFFFFF;
+}
+
+.posLeft{
+  
+  display: flex;
+  flex-direction:column;
+ justify-content: flex-start;
+  align-items: flex-start;
+
+}
+

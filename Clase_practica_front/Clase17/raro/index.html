@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- delimitación -->
+    <section id="form">
+
+        <h2>Añadí tu super!</h2>
+        <p>Agregá tu personaje favorito completando las opciones</p>
+
+        <!-- captura de datos  -->
+        <form action="./registro" method="POST">
+
+            <!-- inputs -->
+            <section id="main-form">
+
+                <!-- columna izquierda-->super
+                <fieldset id="left">
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="input-style" />
+
+                    <label for="fecha" id="label-fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha" class="input-style" />
+
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="Descripción" class="input-style"></textarea>
+                </fieldset>
+
+                <!-- columna derecha -->
+                <fieldset id="right">
+                    <label for="especie" id="label-especie">*Especie</label>
+                    <select name="especie" id="especie" class="input-style">
+                      <option value="Especie" aria-placeholder="Especie">Especie</option>
+                    </select>
+
+                    <label for="foto" id="label-foto">Agregar Foto</label>
+                    <input type="file" name="foto" id="foto" placeholder="Seleccionar archivo" />
+
+                    <label for="poderes" class="label-right">Poderes</label>
+
+                    <section class="checkboxs">
+                        <input type="checkbox" name="volar" id="volar">
+                        <label for="volar">Volar</label>
+                    </section>
+
+                    <section class="checkboxs">
+                        <input type="checkbox" name="superinteligencia" id="superinteligencia">
+                        <label for="superinteligencia">Superinteligencia</label>
+                    </section>
+
+                    <section class="checkboxs">
+                        <input type="checkbox" name="vista" id="vista">
+                        <label for="vista">Vista de rayo láser</label>
+                    </section>
+
+                    <section id="border" class="checkboxs">
+                        <input type="checkbox" name="billetera" id="billetera">
+                        <label for="billetera">Billetera gorda</label>
+                    </section>
+
+                    <label for="tipo" id="label-tipo">Tipo de personaje</label>
+                    <section class="checkboxs">
+                        <input type="radio" name="tipo" id="heroe" value="Héroe / Heroína">
+                        <label for="heroe">Héroe / Heroína</label>
+                    </section>
+                    <section class="checkboxs">
+                        <input type="radio" name="tipo" id="villano" value="villano">
+                        <label for="villano">Villano / Villana</label>
+                    </section>
+                </fieldset>
+
+            </section>
+
+            <!-- boton -->
+            
+            <button type="submit">Añadir</button>
+
+        </form>
+    </section>
+</body>
+
+</html>

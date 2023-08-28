@@ -1,0 +1,62 @@
+// estilizar botones cuadrados colo violeta
+
+$bg-color: #230683;
+$size:1em;
+$padding_v:0.5em;
+$padding_h:1em;
+$border-radius:1.4em  0 1.4em;
+$width:150px;
+$height:50px;
+
+
+//boton principal 
+
+button{
+    width:$width;
+    height:$height;
+    margin:1rem;
+    font-size: $size;
+    padding:$padding_v $padding_h;
+    border-radius: $border-radius;
+    font-weight: bold;
+}
+
+.button {
+    background-color: $bg-color;
+    border-radius: 5px;
+    color: #fff;
+    
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+   &-primary {
+        background-color: #fff;
+        color: $bg-color;
+        border: 1px solid $bg-color;
+        &:hover {
+            background-color: $bg-color;
+            color: #fff;
+        }
+    }
+    &-secondary {
+        background-color: $bg-color;
+        color: #fff;
+        border: 1px solid $bg-color;
+        &:hover {
+            background-color: #fff;
+            color: $bg-color;
+        }
+    }
+    &-disabled {
+        background-color: gray;
+        color: #fff;
+        border: 1px solid $bg-color;
+        &:hover {
+            background-color: #fff;
+            color: $bg-color;
+        }
+    }
+}
+
+

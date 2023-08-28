@@ -1,0 +1,23 @@
+.imagentop{
+    width:100px;
+    height:100px;
+    background-color: #E6E6E6;
+}
+
+.fondo{
+    background-color: #C4C4C4;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    color: #005677;
+
+
+    
+}
+
+h1 .texto{
+    font: size  35px; 
+}
+
+.texto{
+   font-size: 10px;
+}
+

@@ -1,0 +1,33 @@
+header{
+    background-image: url("https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/597ee3835bafe8bfc71d398d/via-lactea_0.jpg");
+    background-size: cover;
+    color: antiquewhite;
+}
+
+.fondo{
+    background-color: #6b6579;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    color: #005677;
+    text-align: center;
+}
+#nombre{
+    font-size: 52px;
+    font-family: "Times New Roman", Times, serif;
+    color: antiquewhite;
+}
+
+section h3{
+    text-align: center;
+}
+
+.destacado {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Monoton', cursive;;
+
+}

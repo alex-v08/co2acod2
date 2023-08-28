@@ -1,0 +1,5 @@
+Como buscador de departamento para alquilar quiero ver los que se encuentran disponibles distribuidos en un mapa para identificar fácilmente aquellos que están cerca de la zona que busco.
+
+Ahora es tu turno, teniendo en cuenta los siguientes requerimientos escribí sus user stories.
+
+

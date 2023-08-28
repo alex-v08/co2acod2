@@ -1,0 +1,157 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+form {
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 42px;
+    padding: 0;
+    margin: 0;
+}
+
+
+#form {
+    width: 60%;
+        padding: 10px;
+    margin: auto;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+#main-form {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+#left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    border: none;
+}
+
+#left label {
+    text-align: left;
+    padding: 5px;
+}
+
+#label-fecha {
+    margin: 10px 0;
+}
+
+label {
+    margin: 4px;
+}
+
+#descripcion {
+    margin-top: 20px;
+}
+
+#right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    border: none;
+}
+
+#right label {
+    text-align: left;
+}
+
+#right section {
+    display: flex;
+}
+
+#right .label-right {
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+#label-especie {
+    padding: 5px;
+}
+
+#label-foto {
+    margin: 10px 0;
+    padding-left: 0;
+}
+
+.input-style {
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+}
+
+select {
+    width: 100%;
+}
+
+#foto {
+    margin: 15px 0;
+}
+
+.label-right {
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+#right section {
+    margin: 5px 0;
+}
+
+#border {
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+section label {
+    padding-left: 15px;
+}
+
+.checkboxs {
+    font-size: 12px;
+}
+
+#label-tipo {
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+ button {
+
+    border: none;
+    background-color: aquamarine;
+    padding: 15px;
+    width: 300px;
+    font-size: 24px;
+    border-radius: 15px;
+    font-weight: 800;
+
+} 
+
+/* 
+
+    -> Agregar al menos 3 pseudoclases al boton y a los inputs que quieran
+
+    :hover, :active, :focus, 
+
+    -> Usar un pseudoelemento en el button,
+    ::after, ::before
+
+
+
+
+
+*/

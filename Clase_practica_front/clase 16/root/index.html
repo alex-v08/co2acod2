@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<!--Cabecera superior -->
+    <header>
+        <section class="top-header">
+            <span>20% de descuento en todos los productos!</span>
+        </section>
+<!--Cabecera Inferior -->
+        <section class="bottom-header">
+            <img src ="./img/Logo.png" alt="logo">
+            <span>Nombre Tienda</span>
+        </section>
+        <!--NAV de contacto Resigrarme Ingresar-->
+        <section class = "nav_header" >
+            <nav class = "nav_a">
+                <a href="">Contacto</a>
+                <a href="">Registrarse</a>
+                <a href="">Ingresar</a>
+            </nav>
+        </section>
+    </header>
+
+    <!--Contenido principal-->
+    <main class = "main-container">
+
+        <h1>Añadi tu super!</h1>
+        <span>Agregà tu personaje favorito completando las opciones.</span>
+
+        
+        <form action = "mensajes/" method="POST">
+            <section class ="Section-left">
+
+                <label for = "nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for = "date">Fecha</label>
+                <input type="date" name="fecha" id="fecha" required>
+
+                <label for = "textarea">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10">Descripciòn</textarea>
+
+            
+            </section>
+            <section class = "Section-right">
+
+                <label for = "Especie">*Especie</label>
+                <select name="especie" id="especie" required>
+                    <option value="">Especie</option>
+                    <option value="Humano">Humano</option>
+                    <option value="Alien">Alien</option>
+                    <option value="Robot">Robot</option>
+                </select>
+
+                <label for = "add_picture">Agregar Foto</label>
+                <input type="file" name="add_picture" id="add_picture">
+
+                <label for = "Poderes">Poderes</label>
+
+                <input type="checkbox" id="one" name="check1" value="Volar">
+                <label for="one">Volar</label><br>
+                <input type="checkbox" id="two" name="check2" value="SuperInteligencia">
+                <label for="two">SuperInteligencia</label><br>
+                <input type="checkbox" id="three" name="check3" value="Vista de Rayos làser">
+                <label for="three">Billetera gorda</label>
+                <input type="checkbox" id="three" name="check4" value="Billetera gorda">
+                <label for="three">Billetera gorda</label>
+                
+
+            </section>
+
+        </form>
+    </main>
+
+
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMSSSS</title>
+</head>
+<body>
+
+    <!--armar un formulario en mi sitio web
+    1. Delimitar el formulario, agregarle atributos INDISPENSABLES.
+    2. Agregar un imput para que capture el nombre dle usuario con su label.
+    3. Agregar un imput para que capture el correo con su label.
+    4. Agregar un espacio para que me dejen un mensaje
+    5. Agregar un input para que acepte los terminos y condiciones. 
+    6. Agregar dos botones: uno para enviar el form y otro para resetearlo
+    -->
+
+    <form action="index.php" method="POST">
+        <label for="nombre"> Ingresa tu Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required>
+
+        <input date type="date" name="fecha" id="fecha" required>
+
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" id="correo">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10">hola mundo </textarea>
+
+        <input type="checkbox" name="terminos" id="terminos" >
+
+        <label for="terminos">Acepto los terminos y condiciones</label>
+
+
+        <input type="submit" value="Enviar">
+    </form>       <input type="reset" value="Resetear">
+ 
+    
+</body>
+</html>

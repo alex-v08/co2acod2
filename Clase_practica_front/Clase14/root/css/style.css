@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 12px;
+}
+h1{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+header {
+    height: 5rem;
+    background-color: aquamarine;
+}
+
+/* nMeida Queries*/
+
+@media  (max-width: 700px) & (min-width: 300px){
+    html{
+        font-size: 16px;
+    }
+    h1{
+        color:red
+}
+    flex-direction: column;
+
+    flex-wrap: wrap;
