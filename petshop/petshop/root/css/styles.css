@@ -1,0 +1,39 @@
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #777779;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para el título "Grandes ofertas de comederos" */
+header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilos para los selectores de idioma y moneda */
+header select {
+    margin: 10px;
+}
+
+/* Estilos para la sección principal */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav{
+    display :flex
+    
+}
